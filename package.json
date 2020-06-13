@@ -12,7 +12,7 @@
     "prepublish": "npm run build"
   },
   "repository": {
-    "url": "git+ssh://git@github.com/dotstudiopro/zapp-pipes-provider-apdotstudiopro.git",
+    "url": "git+ssh://git@github.com/applicaster/zapp-pipes-provider-apdotstudiopro.git",
     "type": "git"
   },
   "keywords": [
@@ -24,9 +24,9 @@
   "author": "Applicaster",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/dotstudiopro/zapp-pipes-provider-apdotstudiopro/issues"
+    "url": "https://github.com/applicaster/zapp-pipes-provider-apdotstudiopro/issues"
   },
-  "homepage": "https://github.com/dotstudiopro/zapp-pipes-provider-apdotstudiopro#readme",
+  "homepage": "https://github.com/applicaster/zapp-pipes-provider-apdotstudiopro#readme",
   "dependencies": {
     "axios": "0.16.2",
     "jsonwebtoken": "^8.5.1",

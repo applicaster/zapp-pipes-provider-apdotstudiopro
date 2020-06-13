@@ -4,11 +4,11 @@
   "author_name": "Applicaster",
   "author_email": "zapp@applicaster.com",
   "manifest_version": "0.1.0",
-  "name": "dotstudioPRO Applicaster Provider",
+  "name": "DotStudioPro By Applicaster",
   "dependency_name": "zapp-pipes-provider-apdotstudiopro",
   "dependency_version": "0.1.0",
   "dependency_repository_url": [
-    "https://github.com/dotstudiopro/zapp-pipes-provider-apdotstudiopro"
+    "https://github.com/applicaster/zapp-pipes-provider-apdotstudiopro"
   ],
   "description": "Zapp Provider for Applicaster platform by dotstudioPRO developed by Applicaster",
   "type": "data_source_provider",
