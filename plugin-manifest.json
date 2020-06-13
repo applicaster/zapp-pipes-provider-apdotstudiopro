@@ -1,0 +1,69 @@
+{
+  "api": {},
+  "platform": null,
+  "author_name": "Applicaster",
+  "author_email": "zapp@applicaster.com",
+  "manifest_version": "0.1.0",
+  "name": "dotstudioPRO Applicaster Provider",
+  "dependency_name": "zapp-pipes-provider-apdotstudiopro",
+  "dependency_version": "0.1.0",
+  "dependency_repository_url": [
+    "https://github.com/dotstudiopro/zapp-pipes-provider-apdotstudiopro"
+  ],
+  "description": "Zapp Provider for Applicaster platform by dotstudioPRO developed by Applicaster",
+  "type": "data_source_provider",
+  "identifier": "apdotstudiopro",
+  "ui_builder_support": true,
+  "whitelisted_account_ids": ["5d812bbb7b81ea000e1168de"],
+  "min_zapp_sdk": "4.0.0",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "scheme": "apdotstudiopro",
+  "custom_configuration_fields": [
+    {
+      "key": "api_key",
+      "type": "text",
+      "tooltip_text": "dotstudioPRO API Key"
+    },
+    {
+      "key": "environment",
+      "type": "select",
+      "options": [
+        { "text": "Development", "value": "development" },
+        { "text": "Production", "value": "production" }
+      ]
+    }
+  ],
+  "data_types": [
+    {
+      "label": "categories",
+      "value": "categories",
+      "documentation": {
+        "link": "https://api.myspotlight.tv/#tag/category",
+        "input_description": "get category list",
+        "input_placeholder": "",
+        "input_description_image_url": ""
+      }
+    },
+    {
+      "label": "channels",
+      "value": "channels",
+      "documentation": {
+        "link": "https://api.myspotlight.tv/#tag/channel",
+        "input_description": "category slug",
+        "input_placeholder": "?category=x",
+        "input_description_image_url": ""
+      }
+    },
+    {
+      "label": "channel",
+      "value": "channel",
+      "documentation": {
+        "link": "https://api.myspotlight.tv/#tag/channel",
+        "input_description": "get channel by category",
+        "input_placeholder": "?category=x&slug=x",
+        "input_description_image_url": ""
+      }
+    }
+  ]
+}
